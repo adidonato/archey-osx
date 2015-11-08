@@ -148,5 +148,15 @@ ${PURPLE# }      ####################            ${fieldlist[10]}
 ${BLUE#   }        ################              ${fieldlist[11]}
 ${BLUE#   }         ####     #####               ${fieldlist[12]}
 ${normal}
+
+
+"
+todo=$(cat ~/todo2 | boxes -d mouse -a c)
+
+echo -e "
+${GREEN#  }            TODAY'S TODO LIST
+
+${todo}
+
 "
 fi
